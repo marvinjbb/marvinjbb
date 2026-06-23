@@ -1,41 +1,14 @@
-<h1 align="center">Hi, I'm Marvin Joseph 👋</h1>
+<h1 align="center">Hi, I'm Marvin Joseph B 👋</h1>
+
+<h3 align="center">Senior SQL Server DBA → AI Engineer</h3>
 
 <p align="center">
-  <b>Senior SQL Server DBA → AI Engineer</b><br>
-  <sub>LLM Applications · AI Agents · RAG Systems · Production AI</sub>
+  <b>LLM Applications · AI Agents · RAG Systems · Production AI</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=650&lines=Building+production-grade+AI+applications;Designing+RAG+systems+%26+AI+agents;From+SQL+Server+DBA+to+AI+Engineer;Reliable.+Scalable.+Observable." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=700&lines=Building+production-grade+AI+applications;Designing+RAG+systems+%26+AI+agents;From+SQL+Server+DBA+to+AI+Engineer;Reliable.+Scalable.+Observable." alt="Typing SVG" />
 </p>
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/marvin-jbb">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:jbmarvin21@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=marvinjbb&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS" alt="Profile views"/>
-</p>
-
----
-
-## 🚀 About Me
-
-I build **AI-powered applications and intelligent systems** using Large Language Models, APIs, automation, and modern software engineering practices.
-
-My focus is **designing, developing, and deploying production-ready AI solutions** that combine language models, data, tools, and business workflows to solve real-world problems.
-
-> 💡 *AI Engineering is more than calling an API. The real challenge is building systems that are reliable, scalable, observable, maintainable, and genuinely useful.*
-
----
-
-## 🧭 From Data Systems to AI
-
-My career began in **database administration** — Microsoft SQL Server environments supporting production systems: automation, monitoring, performance tuning, backup and recovery, and data operations.
-
-Working with mission-critical data systems taught me **reliability, scalability, observability, and engineering discipline**. Today I apply that foundation to AI Engineering — building intelligent applications that are both powerful and dependable.
 
 ---
 
@@ -69,6 +42,24 @@ Working with mission-critical data systems taught me **reliability, scalability,
 ![SageMaker](https://img.shields.io/badge/SageMaker-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+
+---
+
+## 🚀 About Me
+
+I build **AI-powered applications and intelligent systems** using Large Language Models, APIs, automation, and modern software engineering practices.
+
+My focus is **designing, developing, and deploying production-ready AI solutions** that combine language models, data, tools, and business workflows to solve real-world problems.
+
+> 💡 *AI Engineering is more than calling an API. The real challenge is building systems that are reliable, scalable, observable, maintainable, and genuinely useful.*
+
+---
+
+## 🧭 From Data Systems to AI
+
+My career began in **database administration** — Microsoft SQL Server environments supporting production systems: automation, monitoring, performance tuning, backup and recovery, and data operations.
+
+Working with mission-critical data systems taught me **reliability, scalability, observability, and engineering discipline**. Today I apply that foundation to AI Engineering — building intelligent applications that are both powerful and dependable.
 
 ---
 
