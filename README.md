@@ -15,7 +15,7 @@
   <a href="mailto:jbmarvin21@gmail.com">
     <img src="https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
-  <img src="https://komarev.com/ghpvc/?username=marvin-jbb&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS" alt="Profile views"/>
+  <img src="https://komarev.com/ghpvc/?username=marvinjbb&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
 <h2>🧰 Languages & Tools</h2>
@@ -123,12 +123,12 @@ Working with mission-critical data systems taught me **reliability, scalability,
 ## 📊 GitHub Stats
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=marvin-jbb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marvin-jbb&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=marvinjbb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marvinjbb&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marvin-jbb&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marvinjbb&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
 </p>
 
 ---
