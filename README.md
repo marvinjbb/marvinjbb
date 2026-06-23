@@ -1,7 +1,8 @@
 <h1 align="center">Hi, I'm Marvin Joseph 👋</h1>
 
 <p align="center">
-  <b>AI Engineer · LLM Applications · AI Systems Builder</b>
+  <b>Senior SQL Server DBA → AI Engineer</b><br>
+  <sub>LLM Applications · AI Agents · RAG Systems · Production AI</sub>
 </p>
 
 <p align="center">
@@ -18,46 +19,6 @@
   <img src="https://komarev.com/ghpvc/?username=marvinjbb&style=for-the-badge&color=2F81F7&label=PROFILE+VIEWS" alt="Profile views"/>
 </p>
 
-<h2>🧰 Languages & Tools</h2>
-
-<p>
-  <img src="https://skillicons.dev/icons?i=python,postgres,bash,docker,linux,git,github,aws,fastapi,vscode&theme=dark" alt="tech icons"/>
-</p>
-
-<details>
-<summary><b>See full stack with labels</b></summary>
-
-<br>
-
-<b>AI Engineering</b><br>
-![LLMs](https://img.shields.io/badge/LLMs-2F81F7?style=flat-square&logoColor=white)
-![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-2F81F7?style=flat-square&logoColor=white)
-![RAG](https://img.shields.io/badge/RAG-2F81F7?style=flat-square&logoColor=white)
-![AI Agents](https://img.shields.io/badge/AI%20Agents-2F81F7?style=flat-square&logoColor=white)
-![Tool Calling](https://img.shields.io/badge/Tool%20Calling-2F81F7?style=flat-square&logoColor=white)
-![Evaluation](https://img.shields.io/badge/AI%20Eval%20%26%20Testing-2F81F7?style=flat-square&logoColor=white)
-
-<b>Programming</b><br>
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-
-<b>Software Engineering</b><br>
-![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-
-<b>Databases</b><br>
-![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-
-<b>Cloud & Infrastructure</b><br>
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
-
-</details>
-
 ---
 
 ## 🚀 About Me
@@ -72,9 +33,42 @@ My focus is **designing, developing, and deploying production-ready AI solutions
 
 ## 🧭 From Data Systems to AI
 
-My career began in **database administration**, working with Microsoft SQL Server environments supporting production systems — automation, monitoring, performance tuning, backup and recovery, and data operations.
+My career began in **database administration** — Microsoft SQL Server environments supporting production systems: automation, monitoring, performance tuning, backup and recovery, and data operations.
 
 Working with mission-critical data systems taught me **reliability, scalability, observability, and engineering discipline**. Today I apply that foundation to AI Engineering — building intelligent applications that are both powerful and dependable.
+
+---
+
+## 🧰 Tech Stack
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python,postgres,bash,docker,linux,git,github,aws,fastapi,vscode&theme=dark" alt="tech icons"/>
+</p>
+
+#### ✅ Working With
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![RAG](https://img.shields.io/badge/RAG-2F81F7?style=flat-square)
+![Prompt Engineering](https://img.shields.io/badge/Prompt%20Engineering-2F81F7?style=flat-square)
+![REST APIs](https://img.shields.io/badge/REST%20APIs-005571?style=flat-square&logo=fastapi&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+
+#### 📚 Learning & Expanding Into
+![LangGraph](https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![CrewAI](https://img.shields.io/badge/CrewAI-FF5A5F?style=flat-square)
+![AutoGen](https://img.shields.io/badge/AutoGen-0078D4?style=flat-square)
+![MCP](https://img.shields.io/badge/MCP-000000?style=flat-square)
+![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=flat-square&logo=huggingface&logoColor=black)
+![QLoRA](https://img.shields.io/badge/Fine--Tuning%20(QLoRA)-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![AWS Bedrock](https://img.shields.io/badge/AWS%20Bedrock-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![SageMaker](https://img.shields.io/badge/SageMaker-232F3E?style=flat-square&logo=amazonaws&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 
 ---
 
@@ -103,8 +97,90 @@ Working with mission-critical data systems taught me **reliability, scalability,
   </tr>
 </table>
 
-**Portfolio focus areas:**
-`LLM assistants` · `Multi-agent workflows` · `RAG systems` · `Document processing` · `Workflow automation` · `Knowledge management` · `API-integrated AI apps` · `End-to-end AI products`
+---
+
+## 📌 Featured Projects
+
+> *Cards fill in as repos go live — replace the `#` links and `TODO` text.*
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🪙 Stock Picker Agent</h4>
+      Structured-output agent with custom tools and hierarchical processes for equity research.<br>
+      <sub><code>Python · Agents · Tool Calling</code></sub><br>
+      <a href="#">Repo →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🧑‍💻 Developer Agent</h4>
+      Multi-agent system that plans, writes, and reviews code across a simulated engineering team.<br>
+      <sub><code>CrewAI · Multi-Agent · MCP</code></sub><br>
+      <a href="#">Repo →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h4>🏥 Healthcare SaaS (Full-Stack AI)</h4>
+      End-to-end app with auth, subscriptions, and cloud deploy — Vercel then AWS.<br>
+      <sub><code>Next.js · FastAPI · AWS · Terraform</code></sub><br>
+      <a href="#">Repo →</a>
+    </td>
+    <td width="50%" valign="top">
+      <h4>🤝 Autonomous Multi-Agent Capstone</h4>
+      Production multi-agent system deployed at scale — the capstone build.<br>
+      <sub><code>Agents · Bedrock · GitHub Actions</code></sub><br>
+      <a href="#">Repo →</a>
+    </td>
+  </tr>
+</table>
+
+---
+
+## 🗺️ Learning Roadmap
+
+> Tracking the **AI Engineer** path across three tracks. Tick the box (`[ ]` → `[x]`) as each ships.
+
+<details open>
+<summary><b>🟦 Core Track — LLM Engineering, RAG, QLoRA, Agents</b></summary>
+
+<br>
+
+- [ ] **Week 1** — Build your first LLM product, exploring top models
+- [ ] **Week 2** — Multi-modal chatbot: LLMs, Gradio UI, and agents
+- [ ] **Week 3** — Open-source Gen AI: automated solutions with Hugging Face
+- [ ] **Week 4** — LLM showdown: evaluating models for code-gen & business
+- [ ] **Week 5** — Mastering RAG: advanced solutions with vector embeddings
+- [ ] **Week 6** — Traditional ML → DL: fine-tuning a frontier model
+- [ ] **Week 7** — Fine-tuned open-source model to compete with frontier
+- [ ] **Week 8** — Build an autonomous multi-agent system
+
+</details>
+
+<details>
+<summary><b>🟪 Agentic Track — The Complete Agent & MCP Course</b></summary>
+
+<br>
+
+- [ ] **Week 1** — Stock Picker: structured outputs, custom tools, hierarchical processes
+- [ ] **Week 2** — Extend Stock Picker + begin Developer Agent
+- [ ] **Week 3** — Crew framework: build the engineering-team agents
+- [ ] **Week 4** — LangGraph: develop capability-driven applications
+- [ ] **Week 5** — AutoGen: dynamic AI solutions
+- [ ] **Week 6** — MCP + Capstone: bring it all together
+
+</details>
+
+<details>
+<summary><b>🟩 Production Track — Deploy LLMs & Agents at Scale</b></summary>
+
+<br>
+
+- [ ] **Week 1** — Full-stack app w/ auth + subscriptions; deploy Vercel → AWS
+- [ ] **Week 2** — AWS architecture, Bedrock Digital Twin, Terraform + GitHub Actions
+- [ ] **Week 3** — Cyber-security analytics; Azure/GCP via MCP; SageMaker + S3 vectors
+- [ ] **Week 4** — Build & deploy a multi-agent system → capstone
+
+</details>
 
 ---
 
