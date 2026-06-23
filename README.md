@@ -92,7 +92,6 @@ Working with mission-critical data systems taught me **reliability, scalability,
 
 ## 📌 Featured Projects
 
-> *Cards fill in as repos go live — replace the `#` links and `TODO` text.*
 
 <table>
   <tr>
@@ -129,7 +128,6 @@ Working with mission-critical data systems taught me **reliability, scalability,
 
 ## 🗺️ Learning Roadmap
 
-> Tracking the **AI Engineer** path across three tracks. Tick the box (`[ ]` → `[x]`) as each ships.
 
 <details open>
 <summary><b>🟦 Core Track — LLM Engineering, RAG, QLoRA, Agents</b></summary>
