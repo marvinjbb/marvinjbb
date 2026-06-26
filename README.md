@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Marvin Joseph B 👋</h1>
 
-<h3 align="center">Senior SQL Server DBA → AI Engineer</h3>
+<h3 align="center">AI Engineer | Former Senior SQL Server DBA</h3>
 
 <p align="center">
   <b>LLM Applications · AI Agents · RAG Systems · Production AI</b>
@@ -47,9 +47,9 @@
 
 ## 🚀 About Me
 
-I build **AI-powered applications and intelligent systems** using Large Language Models, APIs, automation, and modern software engineering practices.
+I'm an AI Engineer focused on building applications powered by Large Language Models.
 
-My focus is **designing, developing, and deploying production-ready AI solutions** that combine language models, data, tools, and business workflows to solve real-world problems.
+I design and build AI applications that combine Large Language Models, backend services, APIs, databases, and modern AI frameworks to solve real business problems.
 
 > 💡 *AI Engineering is more than calling an API. The real challenge is building systems that are reliable, scalable, observable, maintainable, and genuinely useful.*
 
@@ -57,9 +57,9 @@ My focus is **designing, developing, and deploying production-ready AI solutions
 
 ## 🧭 From Data Systems to AI
 
-My career began in **database administration** — Microsoft SQL Server environments supporting production systems: automation, monitoring, performance tuning, backup and recovery, and data operations.
+Before transitioning into AI, I spent several years working with Microsoft SQL Server in production environments, where I developed experience in database administration, automation, monitoring, performance tuning, backup and recovery, and operational reliability.
 
-Working with mission-critical data systems taught me **reliability, scalability, observability, and engineering discipline**. Today I apply that foundation to AI Engineering — building intelligent applications that are both powerful and dependable.
+That background influences how I approach AI engineering today—building systems that emphasize reliability, maintainability, observability, and scalability rather than simple demos.
 
 ---
 
@@ -69,7 +69,7 @@ Working with mission-critical data systems taught me **reliability, scalability,
   <tr>
     <td width="50%" valign="top">
       <h3>🤖 LLM Applications</h3>
-      Applications powered by modern language models that assist users, automate tasks, and improve decision-making.
+      AI applications that leverage Large Language Models to automate workflows, assist users, and improve decision-making.
     </td>
     <td width="50%" valign="top">
       <h3>🧠 AI Agents</h3>
@@ -126,52 +126,6 @@ Working with mission-critical data systems taught me **reliability, scalability,
 
 ---
 
-## 🗺️ Learning Roadmap
-
-
-<details open>
-<summary><b>🟦 Core Track — LLM Engineering, RAG, QLoRA, Agents</b></summary>
-
-<br>
-
-- [ ] **Week 1** — Build your first LLM product, exploring top models
-- [ ] **Week 2** — Multi-modal chatbot: LLMs, Gradio UI, and agents
-- [ ] **Week 3** — Open-source Gen AI: automated solutions with Hugging Face
-- [ ] **Week 4** — LLM showdown: evaluating models for code-gen & business
-- [ ] **Week 5** — Mastering RAG: advanced solutions with vector embeddings
-- [ ] **Week 6** — Traditional ML → DL: fine-tuning a frontier model
-- [ ] **Week 7** — Fine-tuned open-source model to compete with frontier
-- [ ] **Week 8** — Build an autonomous multi-agent system
-
-</details>
-
-<details>
-<summary><b>🟪 Agentic Track — The Complete Agent & MCP Course</b></summary>
-
-<br>
-
-- [ ] **Week 1** — Stock Picker: structured outputs, custom tools, hierarchical processes
-- [ ] **Week 2** — Extend Stock Picker + begin Developer Agent
-- [ ] **Week 3** — Crew framework: build the engineering-team agents
-- [ ] **Week 4** — LangGraph: develop capability-driven applications
-- [ ] **Week 5** — AutoGen: dynamic AI solutions
-- [ ] **Week 6** — MCP + Capstone: bring it all together
-
-</details>
-
-<details>
-<summary><b>🟩 Production Track — Deploy LLMs & Agents at Scale</b></summary>
-
-<br>
-
-- [ ] **Week 1** — Full-stack app w/ auth + subscriptions; deploy Vercel → AWS
-- [ ] **Week 2** — AWS architecture, Bedrock Digital Twin, Terraform + GitHub Actions
-- [ ] **Week 3** — Cyber-security analytics; Azure/GCP via MCP; SageMaker + S3 vectors
-- [ ] **Week 4** — Build & deploy a multi-agent system → capstone
-
-</details>
-
----
 
 ## 🎯 Current Focus
 
@@ -198,13 +152,6 @@ Working with mission-critical data systems taught me **reliability, scalability,
 
 ---
 
-## 🌱 Engineering Philosophy
-
-I believe the future belongs to engineers who can combine **artificial intelligence, software engineering, data systems, and automation** into products that solve meaningful problems.
-
-My goal is to build systems that move beyond simple chatbot experiences and deliver **measurable business value**.
-
----
 
 <p align="center">
   <a href="https://www.linkedin.com/in/marvin-jbb">
