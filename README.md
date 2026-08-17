@@ -68,22 +68,22 @@ That background influences how I approach AI engineering today—building system
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🤖 LLM Applications</h3>
-      AI applications that leverage Large Language Models to automate workflows, assist users, and improve decision-making.
+      <h3>🤖 LLM Infrastructure</h3>
+      Provider-neutral AI services with model routing, streaming, fallback handling, structured outputs, and controlled tool execution.
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 AI Agents</h3>
-      Intelligent agents capable of reasoning, planning, and taking actions across tools and systems.
+      <h3>📚 Production RAG Systems</h3>
+      Permission-aware retrieval systems with deterministic ingestion, hybrid search, grounded citations, and measurable evaluation.
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📚 RAG Systems</h3>
-      Retrieval systems that combine proprietary knowledge with LLMs to generate accurate, context-aware responses.
+      <h3>🧠 Controlled AI Workflows</h3>
+      Durable agent workflows with MCP tools, human approval boundaries, idempotent actions, verification, and audit trails.
     </td>
     <td width="50%" valign="top">
-      <h3>⚙️ AI Automation</h3>
-      Workflows that integrate AI, APIs, and business processes to automate repetitive and high-value tasks.
+      <h3>⚙️ Model Adaptation & Multimodal AI</h3>
+      Reproducible LoRA experiments, bounded model serving, document extraction, tenant isolation, and cited question answering.
     </td>
   </tr>
 </table>
@@ -92,72 +92,52 @@ That background influences how I approach AI engineering today—building system
 
 ## 📌 Featured Projects
 
-
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h4>🪙 Stock Picker Agent</h4>
-      Structured-output agent with custom tools and hierarchical processes for equity research.<br>
-      <sub><code>Python · Agents · Tool Calling</code></sub><br>
-      <a href="#">Repo →</a>
+      <h4>🌐 Multi-Provider AI Model Gateway</h4>
+      Provider-neutral FastAPI gateway for OpenAI and Anthropic with explicit routing, streaming, retryable fallback, normalized responses, and controlled tool execution.<br><br>
+      <sub><code>Python · FastAPI · OpenAI · Anthropic · Pydantic</code></sub><br><br>
+      <a href="https://github.com/marvinjbb/multi-provider-ai-gateway">View Repository →</a>
     </td>
     <td width="50%" valign="top">
-      <h4>🧑‍💻 Developer Agent</h4>
-      Multi-agent system that plans, writes, and reviews code across a simulated engineering team.<br>
-      <sub><code>CrewAI · Multi-Agent · MCP</code></sub><br>
-      <a href="#">Repo →</a>
+      <h4>📚 Production RAG System</h4>
+      Permission-aware RAG service with deterministic ingestion, hybrid semantic and lexical retrieval, grounded citations, caching, and retrieval evaluation.<br><br>
+      <sub><code>Python · FastAPI · RAG · SQLite · OpenAI</code></sub><br><br>
+      <a href="https://github.com/marvinjbb/production-rag-system">View Repository →</a>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>🏥 Healthcare SaaS (Full-Stack AI)</h4>
-      End-to-end app with auth, subscriptions, and cloud deploy — Vercel then AWS.<br>
-      <sub><code>Next.js · FastAPI · AWS · Terraform</code></sub><br>
-      <a href="#">Repo →</a>
+      <h4>🧠 Agent & MCP Workflow Platform</h4>
+      Approval-gated incident workflow that gathers evidence through read-only MCP tools, performs idempotent actions, verifies results, and records a durable audit history.<br><br>
+      <sub><code>Python · FastAPI · MCP · JSON-RPC · SQLite</code></sub><br><br>
+      <a href="https://github.com/marvinjbb/agent-mcp-workflow-platform">View Repository →</a>
     </td>
     <td width="50%" valign="top">
-      <h4>🤝 Autonomous Multi-Agent Capstone</h4>
-      Production multi-agent system deployed at scale — the capstone build.<br>
-      <sub><code>Agents · Bedrock · GitHub Actions</code></sub><br>
-      <a href="#">Repo →</a>
+      <h4>🔬 Model Adaptation & Serving Lab</h4>
+      Reproducible LoRA experiment workflow with dataset leakage checks, structured-output evaluation, bounded local inference, streaming, and benchmarking.<br><br>
+      <sub><code>Python · PEFT · Transformers · PyTorch · FastAPI</code></sub><br><br>
+      <a href="https://github.com/marvinjbb/model-adaptation-serving-lab">View Repository →</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="100%" valign="top" colspan="2">
+      <h4>📄 Multimodal Document Intelligence</h4>
+      Tenant-isolated document intelligence service with text and PDF extraction, multimodal routing, secure ingestion, page-level provenance, retrieval, and inspectable citations.<br><br>
+      <sub><code>Python · FastAPI · SQLite · pypdf · OpenAI</code></sub><br><br>
+      <a href="https://github.com/marvinjbb/multimodal-document-intelligence">View Repository →</a>
     </td>
   </tr>
 </table>
 
 ---
 
-
 ## 🎯 Current Focus
 
 ```text
-▸ Building production-grade AI applications
-▸ Developing AI agents and autonomous workflows
-▸ Mastering LLM engineering and modern AI architectures
-▸ Designing scalable, observable AI systems
-▸ Applying software engineering best practices to AI products
-```
-
----
-
-## 📊 GitHub Stats
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=marvinjbb&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats"/>
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=marvinjbb&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=marvinjbb&theme=tokyonight&hide_border=true" alt="GitHub Streak"/>
-</p>
-
----
-
-
-<p align="center">
-  <a href="https://www.linkedin.com/in/marvin-jbb">
-    <img src="https://img.shields.io/badge/LinkedIn-marvin--jbb-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:jbmarvin21@gmail.com">
-    <img src="https://img.shields.io/badge/Email-jbmarvin21@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-</p>
+▸ Building reliable, provider-neutral LLM infrastructure
+▸ Developing permission-aware RAG and evaluation systems
+▸ Designing controlled agent workflows with MCP integrations
+▸ Experimenting with model adaptation and bounded inference
+▸ Building secure, observable, and testable AI services
