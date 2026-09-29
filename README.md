@@ -1,13 +1,13 @@
 <h1 align="center">Hi, I'm Marvin Joseph B 👋</h1>
 
-<h3 align="center">AI & Generative AI Engineer | Production SQL Server DBA Background</h3>
+<h3 align="center">Production SQL Server DBA building applied AI systems</h3>
 
 <p align="center">
-  <b>LLM Applications · Agentic Workflows · AI APIs · Production Reliability</b>
+  <b>Python · FastAPI · LLM Applications · Bounded Agent Workflows · Production Reliability</b>
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&pause=1000&color=2F81F7&center=true&vCenter=true&width=760&lines=Building+production-grade+AI+applications;Designing+agentic+workflows+%26+LLM+systems;From+Production+DBA+to+AI+Engineer;Reliable.+Observable.+Controlled." alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=23&pause=1100&color=2F81F7&center=true&vCenter=true&width=720&lines=Building+deployed+AI+applications;Designing+bounded+agent+workflows;Production+DBA+%E2%86%92+Applied+AI+Engineering;Evidence.+Validation.+Reliability." alt="Typing animation: building deployed AI applications, designing bounded agent workflows, and applying production engineering to AI" />
 </p>
 
 <p align="center">
@@ -20,398 +20,181 @@
 
 ---
 
-## ⚡ Who I Am
+## Who I Am
 
-I'm a **production SQL Server DBA transitioning into AI and Generative AI engineering**.
+I'm a **production SQL Server DBA transitioning into applied AI engineering**. My background includes incident response, performance troubleshooting, blocking and query analysis, HA/DR operations, backup and recovery, monitoring, automation, deployment support, and keeping production systems reliable.
 
-My background is in production systems where failures matter: database incidents, performance troubleshooting, high availability, backup and recovery, monitoring, automation, deployments, and operational reliability.
+I now apply that operating mindset to backend and AI systems built with Python, FastAPI, Pydantic, LLM APIs, structured outputs, tool calling, evaluation, Docker, PostgreSQL, REST APIs, and real production deployment.
 
-Today I build **LLM applications and agentic AI systems** with Python, FastAPI, structured outputs, tool calling, retrieval, evaluation, Docker, and production-minded engineering practices.
-
-> **I’m not leaving production engineering behind.
-> I’m applying it to AI systems.**
+> **I'm not leaving production engineering behind. I'm applying it to AI systems.**
 
 ---
 
-## 🧰 Engineering Stack
+## Featured AI Systems
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,fastapi,postgres,bash,docker,linux,git,github,aws,vscode&theme=dark" alt="tech icons"/>
-</p>
+### Incident Investigation Agent
 
-<p align="center">
+A production-deployed controlled incident-response lab that investigates application and PostgreSQL failures through restricted diagnostics. It produces evidence-backed findings and requires human approval before any allowlisted remediation can run.
 
-![Python](https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge\&logo=python\&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge\&logo=fastapi\&logoColor=white)
-![Pydantic](https://img.shields.io/badge/PYDANTIC-E92063?style=for-the-badge\&logo=pydantic\&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_SERVER-CC2927?style=for-the-badge\&logo=microsoftsqlserver\&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge\&logo=postgresql\&logoColor=white)
-![Docker](https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge\&logo=docker\&logoColor=white)
-![Linux](https://img.shields.io/badge/LINUX-FCC624?style=for-the-badge\&logo=linux\&logoColor=black)
-![GitHub Actions](https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge\&logo=githubactions\&logoColor=white)
+**Why it is technically interesting**
 
-</p>
+- Bounded model-selected diagnostic tools with no arbitrary SQL, shell, filesystem, PID, or deployment-version access
+- Application-owned evidence IDs and strict citation/runbook validation
+- Human approval, application-owned remediation policy, and TOCTOU revalidation
+- Scenario-specific recovery verification and an auditable action lifecycle
 
-<p align="center">
+**Built with:** Python · FastAPI · Pydantic · PostgreSQL · OpenAI Responses API · Docker · Nginx
 
-`LLM APIs` · `Structured Outputs` · `Tool Calling` · `AI Agents` · `RAG` · `Embeddings` · `Evaluation` · `MCP` · `REST APIs`
-
-</p>
+**[Try Live Demo →](https://marvinjb.dev/demo/incident-investigation)** · **[View Repository →](https://github.com/marvinjbb/incident-investigation-agent)**
 
 ---
 
-# 🚀 Featured AI Systems
+### Research Agent
 
-<p align="center">
-  These projects represent the direction of my work: <b>AI systems that can retrieve evidence, use tools, make bounded decisions, and operate reliably inside real workflows.</b>
-</p>
+A production-deployed bounded research system that decomposes one question into **2–5 focused assignments**, searches sources in parallel, preserves application-owned evidence, validates grounding relationships, and synthesizes a cited report.
 
-<table>
-<tr>
+**Why it is technically interesting**
 
-<td width="33%" valign="top">
+- Planner-selected assignments and concurrent in-process workers
+- Bounded Tavily search with stable source and evidence IDs
+- Deterministic aggregation, explicit partial-worker failure, and provenance preservation
+- Bounded synthesis that selects known claim, evidence, and uncertainty IDs
 
-### 🚨 Incident Investigation Agent
+**Built with:** Python · FastAPI · Pydantic · asyncio · Tavily Search · OpenAI Responses API · Docker · Nginx
 
-An AI investigation system inspired by real production incident-response workflows.
-
-The agent gathers evidence from:
-
-* application logs
-* database diagnostics
-* recent changes
-* operational runbooks
-
-It reconstructs an incident, evaluates evidence, identifies likely causes, and recommends next actions.
-
-**Key engineering ideas**
-
-`Agent orchestration`
-`Tool calling`
-`Evidence gathering`
-`Human approval`
-`Safety boundaries`
-`Auditability`
-
-<br>
-
-<a href="YOUR-INCIDENT-REPO-URL">
-<b>View Repository →</b>
-</a>
-
-</td>
-
-<td width="33%" valign="top">
-
-### 🔎 Research Agent
-
-A multi-step research system designed to investigate a question rather than simply ask one model for an answer.
-
-A planner breaks the problem into subproblems, specialized workers gather evidence, and the system synthesizes the findings into a grounded report.
-
-**Key engineering ideas**
-
-`Planning`
-`Worker agents`
-`Source grounding`
-`Citations`
-`Conflict detection`
-`Uncertainty handling`
-
-<br>
-
-<a href="YOUR-RESEARCH-REPO-URL">
-<b>View Repository →</b>
-</a>
-
-</td>
-
-<td width="33%" valign="top">
-
-### 📄 Extraction Agent
-
-A document intelligence API that converts uploaded invoices into validated structured data.
-
-The pipeline validates files, extracts document content, requests schema-constrained output from an LLM, validates the result with Pydantic, and returns predictable JSON.
-
-**Key engineering ideas**
-
-`Structured outputs`
-`Pydantic validation`
-`File validation`
-`FastAPI`
-`Testing`
-`Failure handling`
-
-<br>
-
-<a href="https://github.com/marvinjbb/extraction-agent">
-<b>View Repository →</b>
-</a>
-
-</td>
-
-</tr>
-</table>
+**[Try Live Demo →](https://marvinjb.dev/demo/research)** · **[View Repository →](https://github.com/marvinjbb/research-agent)**
 
 ---
 
-## 🧠 What Connects These Projects
+### Extraction Agent
 
-The projects look different, but they are teaching me the same deeper engineering problem:
+A production-deployed document extraction service that converts invoice PDFs and images into validated structured data, then supports stateless questions over the extracted invoice.
+
+**Why it is technically interesting**
+
+- PDF, JPEG, and PNG validation with a text-first PDF path and bounded vision fallback
+- pypdf, PyMuPDF, and Pillow document processing
+- OpenAI Structured Outputs through a provider DTO with deterministic `Decimal` conversion
+- Application-owned Pydantic `Invoice` contract and bounded invoice Q&A
+
+**Built with:** Python · FastAPI · Pydantic · OpenAI Structured Outputs · pypdf · PyMuPDF · Pillow · Docker
+
+**[Try Live Demo →](https://marvinjb.dev/demo/extraction)** · **[View Repository →](https://github.com/marvinjbb/extraction-agent)**
+
+---
+
+## Engineering Stack
+
+| Area | Demonstrated technologies and practices |
+| --- | --- |
+| **Core engineering** | Python, FastAPI, Pydantic, SQL Server, PostgreSQL, Docker, Linux, Git, GitHub, GitHub Actions |
+| **AI applications** | OpenAI Responses API, Structured Outputs, Tool Calling, Agent Workflows, Evaluation, Evidence Grounding, Tavily Search, REST APIs |
+| **Production & infrastructure** | Nginx, Docker Compose, Ubuntu VPS, HTTPS, CI/CD, Observability, Production Debugging |
+| **Frontend** | React, TypeScript |
+
+---
+
+## What Connects These Systems
+
+> **The model is only one component. The engineering is in the system around it.**
 
 ```text
-                    ┌──────────────────┐
-                    │   User / System  │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                    ┌──────────────────┐
-                    │     FastAPI      │
-                    │    API Layer     │
-                    └────────┬─────────┘
-                             │
-                             ▼
-                 ┌──────────────────────┐
-                 │ AI Workflow / Agent  │
-                 └──────────┬───────────┘
-                            │
-             ┌──────────────┼──────────────┐
-             │              │              │
-             ▼              ▼              ▼
-          ┌──────┐     ┌──────────┐    ┌─────────┐
-          │ LLM  │     │Retrieval │    │  Tools  │
-          └──┬───┘     └────┬─────┘    └────┬────┘
-             │              │               │
-             └──────────────┼───────────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │ Validation / Eval │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │ Human / Policy    │
-                  │ Approval Boundary │
-                  └─────────┬─────────┘
-                            │
-                            ▼
-                  ┌───────────────────┐
-                  │   Final Result    │
-                  └───────────────────┘
+User / System
+      |
+      v
+API Boundary
+      |
+      v
+Application Workflow
+      |
+   +--+-------------+
+   |                |
+   v                v
+Model          Tools / Data
+   |                |
+   +-------+--------+
+           |
+           v
+Validation / Policy
+           |
+           v
+Human / Application Control
+           |
+           v
+Final Result / Action
 ```
 
-<p align="center">
-<b>The model is only one component.<br>
-The engineering is in the system around it.</b>
-</p>
+Across all three projects, application code owns the boundaries: inputs, tools, IDs, validation, policy, failure handling, and what the model is allowed to influence.
 
 ---
 
-## 🗄️ Production Engineering Background
+## Production Engineering Background
 
-Before AI engineering, I spent years supporting **Microsoft SQL Server in production environments**.
+| Production database engineering | Applied AI engineering |
+| --- | --- |
+| Incident response and reproducible diagnosis | Bounded tool calling and explicit failure handling |
+| Performance, blocking, and query analysis | Evidence grounding and traceable outputs |
+| HA/DR operations, backup, and recovery | Human approval and recovery verification |
+| Monitoring, automation, and deployment support | Evaluation, observability, and API reliability |
+| Operational reliability | Production deployment and system design |
 
-That experience shaped how I think about software.
-
-<table>
-
-<tr>
-
-<td width="50%" valign="top">
-
-### Production DBA
-
-`Incident response`
-
-`Performance troubleshooting`
-
-`Blocking & query analysis`
-
-`High availability`
-
-`Backup & recovery`
-
-`Monitoring`
-
-`Automation`
-
-`Deployment support`
-
-`Operational reliability`
-
-</td>
-
-<td width="50%" valign="top">
-
-### AI Engineering
-
-`Agent observability`
-
-`Failure handling`
-
-`Evidence gathering`
-
-`Safe tool execution`
-
-`Human approval`
-
-`Evaluation`
-
-`API reliability`
-
-`Production deployment`
-
-`System design`
-
-</td>
-
-</tr>
-
-</table>
+The common thread is disciplined engineering around failure: observe what happened, constrain what can act, validate results, and leave enough evidence for another engineer to understand the system.
 
 ---
 
-## 🔍 Questions I Care About
+## Engineering Questions I Care About
 
-```text
-What happens when the model is wrong?
-
-What happens when a tool fails?
-
-Can we trace where the answer came from?
-
-Can the output be validated?
-
-What actions should require human approval?
-
-How do we measure whether retrieval actually works?
-
-Can we reproduce a failure?
-
-Can another engineer understand and operate the system?
-```
-
-That is where AI engineering becomes more interesting than simply calling a model API.
+- What happens when the model is wrong or a tool fails?
+- Can we trace where an answer came from and validate its output?
+- Which actions require human approval?
+- How should AI quality be evaluated?
+- Can we reproduce a failure and verify recovery?
+- Can another engineer understand and operate the system?
 
 ---
 
-## 🎯 Current Focus
+## Demonstrated vs. Currently Deepening
 
-<table>
+**Demonstrated in public projects**
 
-<tr>
+Python · FastAPI · Pydantic · Structured Outputs · Tool Calling · Bounded Agent Workflows · Evidence Grounding · LLM Evaluation · PostgreSQL · Docker · Nginx · Production Deployment
 
-<td width="50%">
+**Currently deepening**
 
-```text
-01  Agentic workflows
-02  Tool / function calling
-03  Structured outputs
-04  RAG & retrieval
-05  LLM evaluation
-```
+RAG and retrieval design · Embeddings · Model Context Protocol (MCP) · AI application security · Advanced observability and tracing · Larger-scale backend and system design
 
-</td>
-
-<td width="50%">
-
-```text
-06  MCP
-07  AI system design
-08  AI security
-09  Observability
-10  Production deployment
-```
-
-</td>
-
-</tr>
-
-</table>
+RAG, embeddings, vector search, and MCP are learning areas—not features of the three systems above.
 
 ---
 
-## 🧭 My Engineering Journey
+## Credential
+
+**Claude Certified Associate — Foundations**
+
+---
+
+## Career Journey
 
 ```text
 Production SQL Server DBA
-            │
-            ▼
+        ↓
 Production Systems & Reliability
-            │
-            ▼
-Python + APIs + Backend Engineering
-            │
-            ▼
+        ↓
+Python / Backend / Automation
+        ↓
 LLM Applications
-            │
-            ▼
-Agentic AI Systems
-            │
-            ▼
-AI / Generative AI Engineering
+        ↓
+Bounded Agent Workflows
+        ↓
+Applied AI Engineering
 ```
 
 ---
 
-## 🎓 Credentials & Learning
+## Connect
 
-### Claude Certified Associate — Foundations
-
-Currently deepening my understanding of:
-
-`LLM architecture` · `context windows` · `tokenization` · `embeddings` · `RAG` · `tool calling` · `agents` · `MCP` · `evaluation` · `AI security` · `system design`
-
----
-
-## 🌐 Explore
-
-<table>
-
-<tr>
-
-<td width="33%" align="center">
-
-### 🌍 Portfolio
-
-Live demos, architecture, project stories, and technical writing.
-
-**[marvinjb.dev →](https://marvinjb.dev)**
-
-</td>
-
-<td width="33%" align="center">
-
-### 💻 Projects
-
-Production-minded AI systems and engineering experiments.
-
-**[GitHub →](https://github.com/marvinjbb)**
-
-</td>
-
-<td width="33%" align="center">
-
-### 💼 LinkedIn
-
-My transition from production database engineering into AI.
-
-**[Connect →](https://www.linkedin.com/in/marvin-jbb)**
-
-</td>
-
-</tr>
-
-</table>
-
----
+**[Portfolio](https://marvinjb.dev)** · **[GitHub](https://github.com/marvinjbb)** · **[LinkedIn](https://www.linkedin.com/in/marvin-jbb)**
 
 <p align="center">
   <b>Building AI systems with a production engineer's mindset.</b>
-</p>
-
-<p align="center">
-  Python · FastAPI · LLMs · Agents · RAG · APIs · Docker · Production Systems
 </p>
