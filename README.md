@@ -18,72 +18,45 @@
   <a href="https://github.com/marvinjbb"><b>GitHub</b></a>
 </p>
 
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=python,ts,react,postgres,docker,linux,git,github,vscode&theme=dark" alt="Python, TypeScript, React, PostgreSQL, Docker, Linux, Git, GitHub, and Visual Studio Code" />
+</p>
+
 ---
 
-## Who I Am
+## ⚡ Who I Am
 
 I'm a **production SQL Server DBA transitioning into applied AI engineering**. My background includes incident response, performance troubleshooting, blocking and query analysis, HA/DR operations, backup and recovery, monitoring, automation, deployment support, and keeping production systems reliable.
 
 I now apply that operating mindset to backend and AI systems built with Python, FastAPI, Pydantic, LLM APIs, structured outputs, tool calling, evaluation, Docker, PostgreSQL, REST APIs, and real production deployment.
 
-> **I'm not leaving production engineering behind. I'm applying it to AI systems.**
-
 ---
 
-## Featured AI Systems
+## 🧰 Engineering Stack
 
-### Incident Investigation Agent
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square&logo=microsoftsqlserver&logoColor=white" alt="SQL Server" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=111827" alt="Linux" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+  <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=111827" alt="React" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+</p>
 
-A production-deployed controlled incident-response lab that investigates application and PostgreSQL failures through restricted diagnostics. It produces evidence-backed findings and requires human approval before any allowlisted remediation can run.
-
-**Why it is technically interesting**
-
-- Bounded model-selected diagnostic tools with no arbitrary SQL, shell, filesystem, PID, or deployment-version access
-- Application-owned evidence IDs and strict citation/runbook validation
-- Human approval, application-owned remediation policy, and TOCTOU revalidation
-- Scenario-specific recovery verification and an auditable action lifecycle
-
-**Built with:** Python · FastAPI · Pydantic · PostgreSQL · OpenAI Responses API · Docker · Nginx
-
-**[Try Live Demo →](https://marvinjb.dev/demo/incident-investigation)** · **[View Repository →](https://github.com/marvinjbb/incident-investigation-agent)**
-
----
-
-### Research Agent
-
-A production-deployed bounded research system that decomposes one question into **2–5 focused assignments**, searches sources in parallel, preserves application-owned evidence, validates grounding relationships, and synthesizes a cited report.
-
-**Why it is technically interesting**
-
-- Planner-selected assignments and concurrent in-process workers
-- Bounded Tavily search with stable source and evidence IDs
-- Deterministic aggregation, explicit partial-worker failure, and provenance preservation
-- Bounded synthesis that selects known claim, evidence, and uncertainty IDs
-
-**Built with:** Python · FastAPI · Pydantic · asyncio · Tavily Search · OpenAI Responses API · Docker · Nginx
-
-**[Try Live Demo →](https://marvinjb.dev/demo/research)** · **[View Repository →](https://github.com/marvinjbb/research-agent)**
-
----
-
-### Extraction Agent
-
-A production-deployed document extraction service that converts invoice PDFs and images into validated structured data, then supports stateless questions over the extracted invoice.
-
-**Why it is technically interesting**
-
-- PDF, JPEG, and PNG validation with a text-first PDF path and bounded vision fallback
-- pypdf, PyMuPDF, and Pillow document processing
-- OpenAI Structured Outputs through a provider DTO with deterministic `Decimal` conversion
-- Application-owned Pydantic `Invoice` contract and bounded invoice Q&A
-
-**Built with:** Python · FastAPI · Pydantic · OpenAI Structured Outputs · pypdf · PyMuPDF · Pillow · Docker
-
-**[Try Live Demo →](https://marvinjb.dev/demo/extraction)** · **[View Repository →](https://github.com/marvinjbb/extraction-agent)**
-
----
-
-## Engineering Stack
+<p align="center">
+  <img src="https://img.shields.io/badge/OpenAI_Responses_API-111827?style=flat-square&logo=openai&logoColor=white" alt="OpenAI Responses API" />
+  <img src="https://img.shields.io/badge/Structured_Outputs-334155?style=flat-square" alt="Structured Outputs" />
+  <img src="https://img.shields.io/badge/Tool_Calling-334155?style=flat-square" alt="Tool Calling" />
+  <img src="https://img.shields.io/badge/Agent_Workflows-334155?style=flat-square" alt="Agent Workflows" />
+  <img src="https://img.shields.io/badge/Evaluation-334155?style=flat-square" alt="Evaluation" />
+  <img src="https://img.shields.io/badge/Evidence_Grounding-334155?style=flat-square" alt="Evidence Grounding" />
+  <img src="https://img.shields.io/badge/Tavily_Search-334155?style=flat-square" alt="Tavily Search" />
+  <img src="https://img.shields.io/badge/REST_APIs-334155?style=flat-square" alt="REST APIs" />
+</p>
 
 | Area | Demonstrated technologies and practices |
 | --- | --- |
@@ -94,107 +67,297 @@ A production-deployed document extraction service that converts invoice PDFs and
 
 ---
 
-## What Connects These Systems
+# 🚀 Featured AI Systems
 
-> **The model is only one component. The engineering is in the system around it.**
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🚨 Incident Investigation Agent
+
+A production-deployed controlled incident-response lab that investigates application and PostgreSQL failures through restricted diagnostics, produces evidence-backed findings, and requires human approval before allowlisted remediation.
+
+`Restricted Diagnostics` · `Evidence IDs` · `Tool Calling` · `Human Approval` · `TOCTOU Revalidation` · `Recovery Verification`
+
+**Built with:** Python · FastAPI · Pydantic · PostgreSQL · OpenAI Responses API · Docker · Nginx
+
+**[Try Live Demo →](https://marvinjb.dev/demo/incident-investigation)** &nbsp;•&nbsp; **[View Repository →](https://github.com/marvinjbb/incident-investigation-agent)**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 🔎 Research Agent
+
+A production-deployed bounded research system that decomposes a question into **2–5 focused assignments**, searches sources concurrently, preserves application-owned evidence, validates grounding relationships, and synthesizes a cited report.
+
+`Planner` · `Parallel Workers` · `Tavily Search` · `Evidence IDs` · `Deterministic Aggregation` · `Grounding Validation`
+
+**Built with:** Python · FastAPI · Pydantic · asyncio · Tavily · OpenAI Responses API · Docker · Nginx
+
+**[Try Live Demo →](https://marvinjb.dev/demo/research)** &nbsp;•&nbsp; **[View Repository →](https://github.com/marvinjbb/research-agent)**
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### 📄 Extraction Agent
+
+A production-deployed document extraction service that converts invoice PDFs and images into validated structured data and supports stateless questions over the extracted invoice.
+
+`Structured Outputs` · `Pydantic` · `PDF + Image Input` · `Vision Fallback` · `Decimal Validation` · `Invoice Q&A`
+
+**Built with:** Python · FastAPI · Pydantic · OpenAI Structured Outputs · pypdf · PyMuPDF · Pillow · Docker
+
+**[Try Live Demo →](https://marvinjb.dev/demo/extraction)** &nbsp;•&nbsp; **[View Repository →](https://github.com/marvinjbb/extraction-agent)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## 🧠 What Connects These Systems
+
+<p align="center">
+  <b>The model is only one component.<br />
+  The engineering is in the system around it.</b>
+</p>
 
 ```text
-User / System
-      |
-      v
-API Boundary
-      |
-      v
-Application Workflow
-      |
-   +--+-------------+
-   |                |
-   v                v
-Model          Tools / Data
-   |                |
-   +-------+--------+
-           |
-           v
-Validation / Policy
-           |
-           v
-Human / Application Control
-           |
-           v
-Final Result / Action
+                    User / System
+                          |
+                          v
+                    API Boundary
+                          |
+                          v
+                Application Workflow
+                          |
+                     +----+---------+
+                     |              |
+                     v              v
+                   Model        Tools / Data
+                     |              |
+                     +------+-------+
+                            |
+                            v
+                  Validation / Policy
+                            |
+                            v
+             Human / Application Control
+                            |
+                            v
+                Final Result / Action
 ```
 
 Across all three projects, application code owns the boundaries: inputs, tools, IDs, validation, policy, failure handling, and what the model is allowed to influence.
 
 ---
 
-## Production Engineering Background
+## 🗄️ Production Engineering Background
 
-| Production database engineering | Applied AI engineering |
-| --- | --- |
-| Incident response and reproducible diagnosis | Bounded tool calling and explicit failure handling |
-| Performance, blocking, and query analysis | Evidence grounding and traceable outputs |
-| HA/DR operations, backup, and recovery | Human approval and recovery verification |
-| Monitoring, automation, and deployment support | Evaluation, observability, and API reliability |
-| Operational reliability | Production deployment and system design |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-The common thread is disciplined engineering around failure: observe what happened, constrain what can act, validate results, and leave enough evidence for another engineer to understand the system.
+### 🗄️ Production DBA
+
+`Incident response`
+
+`Performance troubleshooting`
+
+`Blocking & query analysis`
+
+`High availability / disaster recovery`
+
+`Backup & recovery`
+
+`Monitoring`
+
+`Automation`
+
+`Deployment support`
+
+`Operational reliability`
+
+</td>
+<td width="50%" valign="top">
+
+### 🤖 Applied AI Engineering
+
+`Bounded tool calling`
+
+`Failure handling`
+
+`Evidence grounding`
+
+`Human approval`
+
+`Evaluation`
+
+`Observability`
+
+`API reliability`
+
+`Production deployment`
+
+`System design`
+
+</td>
+</tr>
+</table>
+
+> **I'm not leaving production engineering behind.<br />
+> I'm applying it to AI systems.**
 
 ---
 
-## Engineering Questions I Care About
+## 🔍 Engineering Questions I Care About
 
-- What happens when the model is wrong or a tool fails?
-- Can we trace where an answer came from and validate its output?
-- Which actions require human approval?
-- How should AI quality be evaluated?
-- Can we reproduce a failure and verify recovery?
-- Can another engineer understand and operate the system?
+```text
+→ What happens when the model is wrong?
+
+→ What happens when a tool fails?
+
+→ Can we trace where the answer came from?
+
+→ Can the output be validated?
+
+→ What actions require human approval?
+
+→ How do we evaluate AI quality?
+
+→ Can we reproduce a failure?
+
+→ Can another engineer understand and operate the system?
+```
 
 ---
 
-## Demonstrated vs. Currently Deepening
+## 🎯 Current Focus
 
-**Demonstrated in public projects**
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Python · FastAPI · Pydantic · Structured Outputs · Tool Calling · Bounded Agent Workflows · Evidence Grounding · LLM Evaluation · PostgreSQL · Docker · Nginx · Production Deployment
+### Demonstrated in Public Projects
 
-**Currently deepening**
+`Structured Outputs`
 
-RAG and retrieval design · Embeddings · Model Context Protocol (MCP) · AI application security · Advanced observability and tracing · Larger-scale backend and system design
+`Tool Calling`
+
+`Bounded Agent Workflows`
+
+`Evidence Grounding`
+
+`LLM Evaluation`
+
+`Production Deployment`
+
+</td>
+<td width="50%" valign="top">
+
+### Currently Deepening
+
+`RAG & retrieval design`
+
+`Embeddings`
+
+`Model Context Protocol`
+
+`AI application security`
+
+`Advanced observability & tracing`
+
+`Larger-scale system design`
+
+</td>
+</tr>
+</table>
 
 RAG, embeddings, vector search, and MCP are learning areas—not features of the three systems above.
 
 ---
 
-## Credential
-
-**Claude Certified Associate — Foundations**
-
----
-
-## Career Journey
+## 🧭 My Engineering Journey
 
 ```text
 Production SQL Server DBA
-        ↓
+            │
+            ▼
 Production Systems & Reliability
-        ↓
+            │
+            ▼
 Python / Backend / Automation
-        ↓
+            │
+            ▼
 LLM Applications
-        ↓
+            │
+            ▼
 Bounded Agent Workflows
-        ↓
+            │
+            ▼
 Applied AI Engineering
 ```
 
 ---
 
-## Connect
+## 🎓 Credentials & Learning
 
-**[Portfolio](https://marvinjb.dev)** · **[GitHub](https://github.com/marvinjbb)** · **[LinkedIn](https://www.linkedin.com/in/marvin-jbb)**
+### Claude Certified Associate — Foundations
+
+Current learning priorities are listed separately above; no unfinished certification is presented as earned.
+
+---
+
+## 🌐 Explore
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+
+### 🌍 Portfolio
+
+Live demos, architecture, project stories, and technical writing.
+
+**[marvinjb.dev →](https://marvinjb.dev)**
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 💻 GitHub
+
+Source code, tests, architecture, and engineering decisions.
+
+**[View Projects →](https://github.com/marvinjbb)**
+
+</td>
+<td width="33%" align="center" valign="top">
+
+### 💼 LinkedIn
+
+My path from production database engineering into applied AI.
+
+**[Connect →](https://www.linkedin.com/in/marvin-jbb)**
+
+</td>
+</tr>
+</table>
+
+---
 
 <p align="center">
   <b>Building AI systems with a production engineer's mindset.</b>
+</p>
+
+<p align="center">
+  Python · FastAPI · LLM Applications · Bounded Agent Workflows · Production Systems
 </p>
